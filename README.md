@@ -18,6 +18,8 @@ Build a classifier to identify whether a tweet is of positive, negative, or neut
 4. [`judge-1377884607_tweet_product_company.csv`](/judge-1377884607_tweet_product_company.csv) - raw dataset
 5. [`best.pickle`](/best.pickle) - best identified model, fit to training set
 6. [`tweet_sentiment.pdf`](/tweet_sentiment.pdf) - non-technical presentation
+7. [`notebook.pdf`](/notebook.pdf) - pdf of jupyter notebook
+8. [`github.pdf`](/github.pdf) - pdf of github repo
 
 ## Project Objectives
 Build a classifier to predict whether a tweet is of positive, negative, or neutral sentiment, in context of product managers / public relations personnel tracking public sentiment related to certain events, releases, updates, etc. Follow CRISP-DM machine learning process to explore dataset, prepare data for modeling, modeling, and post-model evaluation.  Will be focused on accuracy as our main performance metric as context of false positives vs. false negatives is not as relevant with tweet data, especially given volume of it.  
