@@ -37,7 +37,7 @@ This classifier will be created in the context of tracking public sentiment surr
 According to https://www.internetlivestats.com/twitter-statistics/ there are over 500 million tweets sent per day. Harnessing public sentiment from this amount of data would undoubtedly be helpful for tech companies looking to track how the public is feeling towards them. This classifier would likely be a valuable tool to complement public product reviews.
 
 ### Data Understanding
-The main dataset containing raw tweet text and class labels comes from [CrowdFlower](https://data.world/crowdflower/brands-on-product-emotions), with the following description: *Contributors evaluated tweets about multiple brands and products. The crowd was asked if the tweet expressed positive, negative, or no emotion towards a brand and/or product. If some emotion was expressed they were also asked to say which brand or product was the target of that emotion.*
+The main dataset containing raw tweet text and class labels comes from [CrowdFlower](https://data.world/crowdflower/brands-and-product-emotions), with the following description: *Contributors evaluated tweets about multiple brands and products. The crowd was asked if the tweet expressed positive, negative, or no emotion towards a brand and/or product. If some emotion was expressed they were also asked to say which brand or product was the target of that emotion.*
 
 Note: when loading the dataset, the following encoding should be used to avoid import errors
 ```
