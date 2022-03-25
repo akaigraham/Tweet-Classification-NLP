@@ -24,7 +24,7 @@ This project uses Natural Language Processing and Machine Learning to train a cl
 Build a classifier to predict whether a tweet is of positive, negative, or neutral sentiment, in context of product managers / public relations personnel tracking public sentiment related to certain events, releases, updates, etc. Follow CRISP-DM machine learning process to explore dataset, prepare data for modeling, modeling, and post-model evaluation.  Will be focused on accuracy as our main performance metric as context of false positives vs. false negatives is not as relevant with tweet data, especially given volume of it.  
 
 ## Overview of the Process:
-Following CRISP-DM, the process outlined within `sentiment_nlp.ipynb` follows 5 key steps, including:
+Following CRISP-DM, the process outlined within [`NLP-Text-Classifier.ipynb`](NLP-Text-Classifier.ipynb) follows 5 key steps, including:
 1. Business Understanding: Outlines facts and requirements of the project.  Specifically a classifier will be built and trained on twitter text data to predict whether that tweet is of positive, negative, or neutral sentiment. Understanding public sentiment surround product releases, updates, other pushes will be beneficial to product managers and public relations professionals to track the public's responses.
 2. Data Understanding: focused on unpacking data available to us and leveraged throughout classification.  Section will focus on the distribution of our data, any imbalances within our target predictor, etc.
 3. Data Preparation: further preprocessing of our data to prepare for modeling.  This includes splitting into training and testing sets, text processing, vectorization, and other techniques.
