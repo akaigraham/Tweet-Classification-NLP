@@ -16,7 +16,7 @@ This project uses Natural Language Processing and Machine Learning to train a cl
 
 ## Repository Contents
 1. [`README.md`](README.md)
-2. [`sentiment_nlp.ipynb`](sentiment_nlp.ipynb) - clean jupyter notebook containing all code
+2. [`NLP-Text-Classifier.ipynb`](NLP-Text-Classifier.ipynb) - clean jupyter notebook containing all code
 3. [`Tweet-Classification_Presentation.pdf`](Tweet-Classification_Presentation.pdf) - non-technical presentation summarizing methodology and findings
 4. [`/imgs`](imgs) - image files for images contained in README
 
