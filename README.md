@@ -17,7 +17,8 @@ This project uses Natural Language Processing and Machine Learning to train a cl
 ## Repository Contents
 1. [`README.md`](README.md)
 2. [`sentiment_nlp.ipynb`](sentiment_nlp.ipynb) - clean jupyter notebook containing all code
-3. [`/imgs`](imgs) - image files for images contained in README
+3. [`Tweet-Classification_Presentation.pdf`](Tweet-Classification_Presentation.pdf) - non-technical presentation summarizing methodology and findings
+4. [`/imgs`](imgs) - image files for images contained in README
 
 ## Project Objectives
 Build a classifier to predict whether a tweet is of positive, negative, or neutral sentiment, in context of product managers / public relations personnel tracking public sentiment related to certain events, releases, updates, etc. Follow CRISP-DM machine learning process to explore dataset, prepare data for modeling, modeling, and post-model evaluation.  Will be focused on accuracy as our main performance metric as context of false positives vs. false negatives is not as relevant with tweet data, especially given volume of it.  
@@ -182,4 +183,4 @@ The best performing model we saw was a neural network trained on TF-IDF vectoriz
 ## Conclusions & Summary
 Through an iterative modeling and data preparation process, we were able to tune a model with ~64% testing accuracy.  Through this process accuracy score was selected as the main performance metric.  Training times were also considered as part of the evaluation phase.  
 
-Utilize this classifier to produce a sentiment score to track releases in the future. 
+Utilize this classifier to produce a sentiment score to track releases in the future.
